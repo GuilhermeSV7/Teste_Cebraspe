@@ -7,7 +7,7 @@ const ListagemEventos = () => {
   const [eventos, setEventos] = useState([]);
 
   const [carregando, setCarregando] = useState(true);
-
+  //
   useEffect(() => {
     fetch('https://extranet.cebraspe.org.br/AvaliacaoCSA/BackEnd/')
       .then(res => res.json()) 
